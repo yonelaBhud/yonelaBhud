@@ -1,0 +1,26 @@
+class Rectangle
+
+
+def__init__(self,length,width):
+     self.length = length:
+     self.width = width:
+
+def input_attribites(self):
+    self.length = float(input("Enter the length :"))
+    self.width = float(input("Enter the width : "))
+
+def output_result(self):
+    print("area of a rectangle:",self.calculate_area())
+    print("perimeter of a rectangle:",self.calculate_perimeter())
+
+def calculate_area(self):
+    return self.length * self.width
+
+def calculate_perimeter(self):
+    return 2 *(self.length + width)
+
+if __name__ =='__main__':
+    obj = Rectangle(2,6)
+    obj.output_result()
+    obj.input_attributes()
+    obj.output_result()
